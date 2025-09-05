@@ -1,0 +1,110 @@
+# Site Settings
+url: "https://irawat1.github.io"
+baseurl: "/thoughts"
+title: "Your Name - Data Science Portfolio"
+title_separator: " | "
+description: "Data Science Portfolio featuring Jupyter notebooks and projects"
+logo: "/assets/images/logo.png"
+email: "your.email@example.com"
+author: "Your Name"
+lang: "en"
+timezone: "America/New_York"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  notebooks:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: "notebooks"
+    values:
+      layout: "notebook"
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# Theme
+theme: jekyll-theme-so-simple
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+
+# Social Links
+social:
+  - title: "GitHub"
+    url: "https://github.com/irawat1"
+  - title: "LinkedIn"
+    url: "https://linkedin.com/in/yourprofile"
+  - title: "Twitter"
+    url: "https://twitter.com/yourusername"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Notebooks"
+    url: "/notebooks/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Search
+search: true
+search_full_content: true
+
+# Comments (disabled by default)
+comments: false
+
+# Analytics (add your tracking ID)
+google_analytics: ""
+
+# SEO
+seo:
+  type: "Person"
+  name: "Your Name"
+  links:
+    - "https://github.com/irawat1"
+    - "https://linkedin.com/in/yourprofile"
