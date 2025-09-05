@@ -50,9 +50,6 @@ defaults:
       share: true
       related: true
 
-# Theme
-theme: jekyll-theme-so-simple
-
 # Exclude from processing
 exclude:
   - Gemfile
