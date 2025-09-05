@@ -1,0 +1,56 @@
+---
+---
+
+@import "so-simple/functions";
+@import "so-simple/variables";
+@import "so-simple/notices";
+
+/* Colors */
+$accent-color: #2a7ae2 !default;
+$background-color: #ffffff !default;
+$text-color: #404040 !default;
+$muted-text-color: #8a8a8a !default;
+$border-color: #e8e8e8 !default;
+$form-background-color: #fafafa !default;
+$footer-background-color: #262a2b !default;
+$link-color: #2a7ae2 !default;
+$link-color-hover: mix(#000, $link-color, 25%) !default;
+$link-color-visited: mix(#fff, $link-color, 25%) !default;
+$masthead-link-color: #404040 !default;
+$masthead-link-color-hover: mix(#000, #404040, 25%) !default;
+$navicon-link-color-hover: mix(#000, #404040, 25%) !default;
+
+/* Syntax highlighting (base16) */
+$base00: #263238 !default;
+$base01: #2e3c43 !default;
+$base02: #314549 !default;
+$base03: #546e7a !default;
+$base04: #b2ccd6 !default;
+$base05: #eeffff !default;
+$base06: #eeffff !default;
+$base07: #ffffff !default;
+$base08: #f07178 !default;
+$base09: #f78c6c !default;
+$base0a: #ffcb6b !default;
+$base0b: #c3e88d !default;
+$base0c: #89ddff !default;
+$base0d: #82aaff !default;
+$base0e: #c792ea !default;
+$base0f: #ff5370 !default;
+
+@import "so-simple/base";
+@import "so-simple/type";
+@import "so-simple/syntax";
+@import "so-simple/code";
+@import "so-simple/layout";
+@import "so-simple/masthead";
+@import "so-simple/posts";
+@import "so-simple/pagination";
+@import "so-simple/message";
+@import "so-simple/search";
+@import "so-simple/toc";
+@import "so-simple/forms";
+@import "so-simple/notices";
+@import "so-simple/footer";
+@import "so-simple/animations";
+@import "so-simple/utilities";
